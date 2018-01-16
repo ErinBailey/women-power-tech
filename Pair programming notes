@@ -1,0 +1,156 @@
+Introduction
+- Good afternoon, my name is Erin Bailey and I've been a Software Developer at Allstate for about 2 years. My role at Allstate is on an Automation Engineering 
+team for insfrastructure services.
+More specifically, I work in Compozed labs and we pride ourselves on the accelerated delivery of products. Our goal is to deliver value to the user in 
+the quickest and most efficient way possible.
+One of the ways that we are able to accomplish this task is through pair programming in an XP agile environment.  
+
+What is pair programming (insert picture of allstaters pairing!)
+- Pair programming is where two programmers develop side by side at one computer to produce one artifact. Whether it's an algorithm, writing code, 
+or creting some kind of design.
+
+- [Show driver and navigator photo] Pairing with 2 developers consists of a driver and a navigator. The driver types while the navigator concentrates on 
+what they're going to dictate. 
+They focus on the logic behind the implementation of a solution, as well as catch bugs or errors in the code as it's being written.
+This relationship works well because the driver and navigator are in constant communication. 
+
+-[Ping pong slide]
+Another reason why this combination of roles works so great 
+is because the driver and navigator switch roles very frequently. In fact, a great way to get started with pairing is to do the ping pong method! 
+This is where one person writes a test, and then the other person will take over to write the implementation. Bouncing back and forth like this is a great
+way to get the ball rolling on pairing. It helps to establish a good expectation for communication.
+*With the driver/navigator setup, every idea goes through someone else's fingers before it gets implemented in the code*
+
+In the past, programming has typically been taught and practiced as a solo activity so there's a common mindset around the industry to think of paired 
+programming as being wasteful because you have two developers doing the work of one, but there's actually a lot more to it 
+and a lot of reasons why it's worth it to give it a try. 
+
+Benefits of Pairing
+- So what are some of the benefits of pairing?
+
+Benefits:
+- Right off the bat, one of the greatest things about pairing is that you always have a second set of eyes on the code. When you're struggling on a 
+problem, you don't need to pull someone away from their own work to ask for help. They're sitting right next to you to immediately offer their input and suggestions. 
+It feels kind of like having a built in sounding board to your workday. 
+Or even just to make you feel less lonely when you realize your EXACT question was asked on Stack Overflow over 3 ago, but it was left completely unanswered. 
+- Another benefit is increased discipline. When you know someone is going to be working with you on something, there's no excuse to be sloppy, and 
+there's no cutting corners. Your coding habits are out there for the entire team to see, live, AS THEY ARE HAPPENING. 
+This increases accountability as Team mates end up putting positive pressure on one another to perform at their best ability and stay on task. 
+It also allows you to get exposure to new techniques and best practices.
+- In other words, you're Constantly learning. whether it be keyboard short cuts or command line tricks, everyone has something new to bring to the table 
+and everyone's knowledge rises with each day that you pair. 
+You pick up something new from every single person you pair with, regardless of experience in the industry. It doesn't matter if you're new to the craft, or if 
+you've been doing this for over 20 years. You will learn something new.
+- With every mind on the team combined, all these differing experiences lead to Better code, more efficient solutions, increased CONFIDENCE in 
+those solutions, better design quality. The list goes on. I can tell you for a fact, it makes a push to production much less stressful. 
+[show the graph about the best work getting put into the code]
+-[Office space picture] Having each idea run through someone else's fingers before it breathes life into your product means that there are 
+certain risks that can be mitigated through pairing. 
+- Pair programming has the capability to prevent design defects, or stop them almost as soon as they hit. It aids in the elimination of 
+"design tunnel vision", There's no reason to make a design decision and just decide to stick with it no matter what. Or stick with it just because someone 
+told you to. You can experiment with various solutions because you have multiple ideas to bring to the table.
+- With pair programming, there's a strong sense of Collective code ownership. Everyone takes pride in the entire code base because everyone has WORKED on the entire
+code base. You don't have a "back end team" and a "front end team". You don't get to pawn off writing the SQL queries to that one person that loves databases.
+Everyone knows the application as a whole, and any developer can pick up a task and understand what files need to be touched and what affect it's going to have 
+on their application. 
+- Which means that there is No silod knowledge. This one is huge. There is no knowledge transfer needed in the event of what I like to call the "Lotto ticket factor".
+If I win the lottery, I am not coming into work tomorrow, sorry Matt. But I know good and well that my team mates will be fine because we've all had an equal 
+amount of time at the keyboard, working hard and giving our input and learning to understand the behavior. If I hit the jackpot...no one is going to get a 3 hour
+meeting thrown on their calendar to try and pick my brain in a frantic state, simply because I'm the only one who knows how to do a specific task.
+
+- [own slide?] "By pairing regularly with all members of the group, an individual programmer maintains sufficient general awareness to 
+substitute for a missing partner at a moment’s notice"
+Even though I love what I do, I still have my fingers crossed that I'll win the lottery, and I know that my team will be just fine. 
+Except for maybe the fact that they'll be left with an odd number of people and won't be able to pair....but they can figure that one out on their own. 
+
+- There's a pretty big socialization aspect to pairing which can build a strong sense of community within the office.
+ You can have people go out into the community with the knowledge they've gained and help other teams. Pairing creates a ripple effect in that sense. Sort of a 
+ situation where we becomes stronger as a whole because we've become stronger individually. 
+
+- Everyday is a code review because you always have someone to double check your work. I still appreciate code reviews from outside perspectives, 
+but they are needed much less frequently than if everyone worked by themselves.
+
+- And finally, I love pairing because I WILL talk to myself while I'm solving a problem and I'm working alone. It's nice to have someone near me to absorb the chatter so I don't 
+feel like a complete loon
+
+Definitive Benefits:
+Definitive benefits are much more concrete, they have solid numbers attached to their research.
+
+- I want to start by talking about the university of Utah. They conducted a study on pairing that was comprised of 41 advanced graduate students. 
+Their plan was to have a control group of individuals who worked on assignments by themselves, and then a goup of students who paired on the exact same assignments.
+They had an impartial teacher's assistant create an automated test suite for each assignment in order to gather metrics. Remember, the inital thogut about
+pairing is often that you waste developer resources becase you're going to be spending 2x the amount of time to complete a task if people are pairing. 
+
+- So they divided the students into the 2 groups. The control group contained 13 students who worked individually, and the experimental group, 28 students who paired. 
+They balanced the 2 groups with the same mix of high, average, and low performers, as determined by their grades.
+The study focued on 3 main metrics: Cycle time, productivity, and code quality.
+
+- [Picture of the cycle time graph] The results in cycle time revealed that for the first assignment, 
+the pairs took about 60% more time to finish their assignment than the individual programmers.
+
+- When it comes to pairing, there is an adjustment phase to go through before you are able to comfortably start completeing tasks at your normal pace. The
+observations from this study revealed that this adjustment phase can range from just a few hours to a couple days, depending on the individual. 
+I'm sure that ego has noooothing to do with this. But really, it's a combination of things: work habits, style prefernece, tabs vs spaces....and maybe some
+people's ego did get in the way... -> [trnasition]
+But the end of the second assignment marked an important milestone for the experimental group:
+all students reported they had overcome the constant urge to grab the mouse or keyboard from their partner’s hands. Ta-da! They had surpassed the adjustment phase!
+
+- [60% -> 15% picture] And in doing so, that 60% that we talked about took a dramatic nose dive down to a minimum of 15%. So the pair programmers are not trailing too far behind their solo counter parts.
+
+- [Test results] The pairs passed more of the automated post-development test cases in every single assignment. 
+This is where that code quality aspect really shines. The difference between the test cases is pretty significant, and you can see it rise as they continue to work together, even though the assignments got progressively more difficult. 
+
+There were a couple individuals that didn’t hand in an assignment or handed it in late. On the flip side, the pairs handed in their 
+assignments on time, each time. This can be traced back to that positive pressure that we put on each other to perform our best. The students admitted to working 
+“harder and smarter” because they don’t want to let their pair down. 
+
+-"Even if you weren’t more productive, you would still want to pair, because the resulting code quality is so much higher" -Kent Beck?
+Because another thing to keep in mind about code quality is that bugs and taking short cuts do nooot age well, my friends. The benefits of high quaity code 
+will multiply when they stand the test of time, because the cost of fixing a simple mistake will be much more expensive down the line than it is to have 
+2 developers pair in the first place. This will help out significantly with scaling, refactoring, and maintaining the code base. 
+
+- [Final pair graph]
+But we all make mistakes, and the faster you catch a bug or any kind of design flaw, the easier (and cheaper) it is to fix. So naturally, after seeing the results of 
+the post-development tests, the students in the control group went back to spend additional time to bring their code up to the standards of the pairs,
+leading to the final results of the study: By working intandem, the pairs completed their assignments 40% to 50% faster
+
+- By the end of the assignment they had surveyed the participants in the experimental group 6 times to gather their thoughts on pairing. Consistently, 90%
+of the people said they enjoyed pairing more than soloing. Additionally, 95% of the group members stated that they felt more condifent with their solutions when working
+in pairs
+
+
+Cons: Alright, alright. So what's the catch. Well there are some cons to pairing, so hopefully I can shed some light on them while also giving some direction on ways to overcome
+some of the difficulties.
+
+- pairing is vulnerable
+All of your flaws as a developer are layed out on the table for your pair to see. It can be overwhelming and extremely intimidating, But the positive
+outcome of this is that you're essentially forced to get over it and adapt and just become a better developer. The opportunities to do so are hard to miss. 
+- It takes patience to become good at pairing. You might know exactly how to do a task, but in order to get the benefits I listed earlier, sometimes you have 
+to wait for someone to do it slower so they can learn how it too. I promise it will be worth it in the long run. 
+Think about the university of Utah grads and how quickly they cut down their solution time once they completed the "adjustment phase". 
+And it's true! You WILL eventually learn to stop grabbing the mouse away from someone when an idea strikes. It's all about communication and growing to 
+become a stronger team. 
+- At some point, it can feel like you and your pair share the same brain because you've taught each other everything you know. But that's why it's important to 
+switch pairs every day. Even going back to that sense of community, make friends with developers on other teams! Because along with sharing a brain, you can 
+also start to share bad habits and become too comfortable with mediocrity. Having those occasional code reviews with outside sources help out a lot. 
+I loooove pulling in random developers to look at our code ON A WHIM. I like to compare it to living in a house with a bunch of roommates and after a while you 
+kind of realize that you're all living in your own filth. Then suddenly you drop a bomb that you're having someone in the office come over to visit. 
+I mean, not that our code is filth by any means but it really makes you take a step back and think "would I be proud to show this off to another developer?"
+"Am I going to be embarassed to see them at work the next day?" It really keeps things fresh and balanced.
+In the world that I work in, even switching teams every once in a while is considered a win. When one person leaves, they're able to carry all their knowledge 
+over to a new group. Then a new person gets to come in an provide a lot of useful insight with unbiased perspectives. And the whole process starts all over again!
+
+-So why is pairing faster?
+I want to end on a quote I heard at a conference that really stuck with me. "Programs which cannot be maintained will be rewritten". So think about the 
+benefits of pairing, and build your products right the first time. 
+Here's a picture of my dog.
+
+Thank you :)
+
+http://wiki.c2.com/?PairProgrammingBenefitshttp://wiki.c2.com/?PairProgrammingBenefits
+https://collaboration.csc.ncsu.edu/laurie/Papers/XPSardinia.PDF
+
+
+talk about ping pong method of pairing - test, code, test, code
+With the driver/navigator setup, every idea goes through someone else's fingers before it gets written down
+
